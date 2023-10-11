@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: DM Sans;
+}
+body {
+  background-color: #2f1893;
+}
+nav {
+  font-size: 18px;
+  margin: 35px 163px;
+  width: 972px;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav h2 {
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+nav ul li #Oview {
+  color: #ffffffc3;
+}
+nav ul li button {
+  color: #fff;
+  width: 90px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  background: #e93a7d;
+}
+
+#Lefthome {
+  position: absolute;
+  width: 427px;
+  height: 496px;
+  margin: 50px 170px;
+}
+#Lefthome h2 {
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+#Lefthome p {
+  width: 360px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+#Lefthome button {
+  width: 120px;
+  height: 35px;
+  font-weight: 500;
+  background: #e93a7d;
+  border-radius: 100px;
+  border: none;
+  margin: 30px -12px;
+  cursor: pointer;
+}
+#Righthome {
+  position: relative;
+  top: 50%;
+  left: 60%;
+  width: 320px;
+  height: 480px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#Righthome form {
+  padding-top: 50px;
+  color: #1e0e62;
+  text-align: center;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+
+#Righthome form input {
+  width: 245px;
+  height: 30px;
+  border-radius: 100px;
+  border: 2px solid #ebeaed;
+  padding: 0px 10px;
+  font-weight: 500;
+}
+
+#Righthome form button {
+  width: 245px;
+  height: 30px;
+  color: #fff;
+  border-radius: 100px;
+  background: #482be7;
+  border: none;
+  padding: 0px 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#Righthome form #checkbox {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+#Righthome form #text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(21, 20, 57, 0.4);
+  padding: 1px 0px;
+}
+
+#divider {
+  font-size: 20px;
+  color: rgba(21, 20, 57, 0.4);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+#divider::before,
+#divider::after {
+  height: 2px;
+  flex: 1;
+  content: "";
+  background-color: #ebeaed;
+  margin: 25px;
+}
+#Righthome form #Login {
+  background: #1da1f2;
+  cursor: pointer;
+}
+#Righthome form #Signin {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+#Righthome form #Signin span {
+  color: #25dac5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  
+  #Righthome {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 320px;
+    height: 480px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+}
